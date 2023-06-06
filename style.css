@@ -23,6 +23,7 @@ body {
     list-style: none;
     text-decoration: none;
     display: flex;
+    padding: 0;
 }
 
 .menu ul li a {
@@ -134,6 +135,7 @@ footer {
     align-items: center;
     justify-content: center; 
     height: 100px;
+    text-align: center;
 }
 
 
@@ -210,6 +212,8 @@ footer {
     width: 250px;
     padding: 80px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .mis-proyectos-caja a {
