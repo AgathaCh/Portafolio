@@ -19,7 +19,7 @@ body {
 }
 
 .menu-ul {
-    gap: 100px;
+    gap: 3rem;
     list-style: none;
     text-decoration: none;
     display: flex;
@@ -39,6 +39,8 @@ body {
     padding: 30px;
     justify-content: space-between;
     display:flex;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 /* Fin menú */
@@ -52,6 +54,10 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+
+    .banner-descripcion{
+        text-align: center;
+    }
 }
 
 
@@ -141,7 +147,7 @@ footer {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
-    height: calc(50vh - 113px);;
+    height: fit-content;
     }
 
 .perfil h1 {
@@ -156,8 +162,7 @@ footer {
     text-align: justify;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 100px;
-    height: calc(70vh - 113px);
+    padding-bottom: 16px;
 }
 
 .experiencia-laboral h2 {
@@ -238,6 +243,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 form {
@@ -268,11 +274,11 @@ form {
     cursor: pointer;
 }
 .form-box {
-    width:500px;
+    width:60%;
 }
 
 .form-message {
-    width: 500px;
+    width: 60%;
     height: 100px;
 }
 
